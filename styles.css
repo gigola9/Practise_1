@@ -7,9 +7,33 @@
     width: 500px;
     height: 200px;
     margin-top: 20px;
+    border: 1px solid black;
+}
+
+.first-task p {
+    margin: 10px 0 0 10px;
+}
+
+.second-task {
+    width: 500px;
+    height: 200px;
+    margin-top: 20px;
     background-color: #eeeaaa;
     border: 1px solid black;
     text-align: center;
+}
+
+.third-task {
+    width: 500px;
+    height: 180px;
+    margin-top: 20px;
+    border: 1px solid black;
+}
+
+.third-task h2 {
+    color: red;
+    text-align: end;
+    margin: 20px 10px 0 0;
 }
 
 .fourth-task {
@@ -20,13 +44,115 @@
     padding: 5px;
 }
 
-.fourth-task > h2 {
+.fourth-task h2 {
     margin-top: 30px;
     text-align: center;
 }
 
-.container {
+.fourth-task .container {
     width: 250px;
     height: 5px;
     margin: 0;
 }
+
+.fifth-task {
+    width: 500px;
+    height: 180px;
+    margin-top: 20px;
+    border: 1px solid black;
+    padding: 20px
+}
+
+
+.sixth-task {
+    width: 500px;
+    height: 200px;
+    margin-top: 20px;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.seventh-task {
+    width: 500px;
+    min-height: 200px;
+    margin-top: 20px;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.seventh-task p {
+    font-size: 14px;
+}
+
+.seventh-task .border {
+    margin-top: 10px;
+    border-color: aqua;
+    border-width: 3px;
+}
+
+.seventh-task .border:last-child {
+    margin-bottom: 30px;
+}
+
+.eight-task {
+    width: 500px;
+    min-height: 200px;
+    margin-top: 20px;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.eight-task .rounded {
+    margin: 10px 0 10px 0;
+    width: 150px;
+    height: 110px;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.eight-task p{
+    margin-top: 10px;
+}
+
+.ninth-task {
+    width: 500px;
+    min-height: 200px;
+    margin-top: 20px;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.ninth-task .rounded {
+    margin: 10px 0 10px 0;
+    width: 150px;
+    height: 110px;
+    border-radius: 20px;
+    padding: 5px;
+    background-color: #800000;
+}
+
+.ninth-task p{
+    margin-top: 10px;
+}
+
+.tenth-task {
+    width: 500px;
+    min-height: 200px;
+    margin-top: 20px;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.tenth-task .rounded {
+    margin: 10px 0 10px 0;
+    width: 150px;
+    height: 110px;
+    padding: 5px;
+    background-color: #800000;
+}
+
+.tenth-task p{
+    margin-top: 10px;
+}
+
+
